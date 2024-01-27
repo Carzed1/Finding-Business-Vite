@@ -11,6 +11,6 @@ Open the terminal then type-
 
 2)now run - npm i
 
-3) now run- npm run dev
+3)now run- npm run dev
    
 Then you will see a localhost link which you can open using ctrl+click
