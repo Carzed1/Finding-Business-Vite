@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const CommunityPage = () => {
   return (
-    <div className="container mx-auto mt-8 p-8">
+    <div className="container mx-auto mt-8 p-8" id="community">
       {/* Section 1: Introduction */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}

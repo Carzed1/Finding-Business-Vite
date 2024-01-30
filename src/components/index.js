@@ -8,4 +8,5 @@ import Contact from "./container/Contact";
 import Footer from "./container/Footer";
 import Navbar from "./Navbar/Navbar";
 
+
 export { Navbar, Home, About, Courses,Community, Teacher,Faq,Contact, Footer };

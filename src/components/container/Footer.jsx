@@ -13,56 +13,25 @@ const Footer = () => {
       initial={{ height: 0 }}
       whileInView={{ height: "auto" }}
       transition={{ duration: 1 }}
-      className="bg-Teal p-10"
+      className="bg-Teal p-5"
     >
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 text-white">
-        <div>
-          <div className="font-bold mb-6">Get Started</div>
-          <p className="text-sm leading-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque
-            saepe cumque. Veritatis sunt commodi
+      <div className="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1  place-items-start gap-8 text-white">
+        <div className="ml-8 text-left">
+          <div className="font-bold mb-2 text-center">Get Started</div>
+          <p className="text-sm leading-7 text-center">
+          Hope, This site will give you better exposure and understanding of business/startups</p>
+        </div>
+        <div className="text-center">
+          <div className="font-bold mb-2 text-center">Copyright</div>
+          <p className="text-sm leading-7 text-center">
+          &copy; 2024 Your Website. All rights reserved by Area51.
           </p>
         </div>
-        <div>
-          <div className="font-bold mb-6">Services</div>
-          <div className="flex flex-col gap-4">
-            <a href="" className="text-sm hover:underline">
-              Web Design
-            </a>
-            <a href="" className="text-sm hover:underline">
-              Web Development
-            </a>
-            <a href="" className="text-sm hover:underline">
-              {" "}
-              Science
-            </a>
-            <a href="" className="text-sm hover:underline">
-              Digital Marketing
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="font-bold mb-6">Company</div>
-          <div className="flex flex-col gap-4">
-            <a href="" className="text-sm hover:underline">
-              Privacy Policy
-            </a>
-            <a href="" className="text-sm hover:underline">
-              Sitemap
-            </a>
-            <a href="" className="text-sm hover:underline">
-              Careers
-            </a>
-            <a href="" className="text-sm hover:underline">
-              Terms & Conditions
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="font-bold mb-6">Follow us</div>
-          <div className="text-sm mb-4">skillexlearning@gmail.com</div>
-          <div className="text-sm">+959883271929</div>
-          <div className="flex gap-4 mt-4">
+      
+        <div className="text-right">
+          <div className="font-bold mb-4 text-center">Follow us</div>
+
+          <div className="flex gap-4 mt-2 text-center">
             <a href="" className="hover:scale-110 text-xl">
               <BsFacebook />
             </a>
@@ -83,3 +52,8 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
