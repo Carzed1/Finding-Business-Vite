@@ -2,7 +2,7 @@ import {
   Navbar,
   Home,
   About,
-  Teacher,
+  
   Contact,
   Courses,
   Community,
@@ -17,11 +17,12 @@ function App() {
       <Home />
       <About />
       <Courses />
-      <Teacher />
+   
       <Community />
       <Faq/>
       <Contact />
       <Footer />
+     
       
     </div>
   );
