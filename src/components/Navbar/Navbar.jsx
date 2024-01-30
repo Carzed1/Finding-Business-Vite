@@ -1,12 +1,17 @@
 import React, { useEffect, useState } from "react";
+import Modal from "../container/Modal";
 import { navLinks } from "../../Data";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
 import { motion } from "framer-motion";
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
+  const [showModal, setShowModal] = useState(0);
+  // const [showSignUpModal, setShowSignUpModal] = useState(false);
+
   useEffect(() => {
     const scrollActive = () => {
       setActive(window.scrollY > 20);
@@ -14,6 +19,15 @@ const Navbar = () => {
     window.addEventListener("scroll", scrollActive);
     return () => window.removeEventListener("scroll", scrollActive);
   }, [active]);
+
+  const handleLoginClick = () => {
+    setShowModal(1);
+  };
+
+  const handleSignUpClick = () => {
+    setShowModal(2);
+  };
+
   return (
     <div
       className={`${
@@ -26,7 +40,7 @@ const Navbar = () => {
             active ? "py-2 transition-all duration-300" : "py-4"
           } container  mx-auto flex items-center justify-between px-2`}
         >
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 ml-8">
             <HiMenuAlt1
               className="text-3xl sm:hidden cursor-pointer"
               onClick={() => setToggle(true)}
@@ -40,9 +54,22 @@ const Navbar = () => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
-          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
-            Sign Up
-          </button>
+          <div className="flex gap-4">
+            <button
+              className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray bg-white"
+              style={{ width: "120px", fontSize: "16px" }}
+              onClick={handleLoginClick}
+            >
+              Login
+            </button>
+            <button
+              className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray bg-green-400"
+              style={{ width: "120px", fontSize: "16px" }}
+              onClick={handleSignUpClick}
+            >
+              Sign Up
+            </button>
+          </div>
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}
@@ -61,10 +88,15 @@ const Navbar = () => {
               })}
               <HiX
                 className="absolute right-12 top-12 text-3xl cursor-pointer"
-                onClick={(prev) => setToggle(!prev)}
+                onClick={() => setToggle(false)}
               />
             </motion.div>
           )}
+
+          <Modal type={showModal} onClose={() => setShowModal(0)}>
+            {/* You can include your Login component here */}
+            {/* Add your login form or login-related content here */}
+          </Modal>
         </div>
       </div>
     </div>
