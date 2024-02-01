@@ -1,6 +1,5 @@
 import React from "react";
-import SignUp from "./Signup";
-import Modal from "./Modal";
+
 
 const Login = () => {
   return (

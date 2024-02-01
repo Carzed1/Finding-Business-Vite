@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import QuestionForm from "./QuesForm";
 
 const CommunityPage = () => {
   return (
@@ -199,6 +200,17 @@ const CommunityPage = () => {
           matters that impact your experience. Your feedback shapes the future
           of our community.
         </p>
+
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ease: "easeOut", duration: 1.5, delay: 0.5 }}
+        className="mb-8 "
+      >
+        <h2 className="text-4xl font-bold mb-4 text-center mt-20">Ask Your Question</h2>
+        <QuestionForm onSubmit={(question) => console.log(question)} />
       </motion.div>
       
     </div>

@@ -7,6 +7,7 @@ import Faq from "./container/Faq";
 import Contact from "./container/Contact";
 import Footer from "./container/Footer";
 import Navbar from "./Navbar/Navbar";
+import MeetTeam from "./container/MeetTeam";
 
 export {
   Navbar,
@@ -16,6 +17,7 @@ export {
   Community,
   Teacher,
   Faq,
+  MeetTeam,
   Contact,
   Footer,
 };

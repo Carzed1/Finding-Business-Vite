@@ -99,32 +99,9 @@ const Home = () => {
         </motion.div>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ ease: "easeOut", duration: 1.5, delay: 1 }}
-        className="text-center text-xl"
-      >
-        We collaborate with{" "}
-        <span className="text-Teal">100+ leading companies</span>
-      </motion.div>
+      
 
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-        className="flex items-center justify-center flex-wrap gap-8 p-2"
-      >
-        {logos.map((logo, index) => (
-          <motion.div
-            variants={logosVariants}
-            className="w-28"
-            key={index}
-          >
-            <img src={logo} alt="" className="w-full object-cover" />
-          </motion.div>
-        ))}
-      </motion.div>
+    
     </div>
   );
 };

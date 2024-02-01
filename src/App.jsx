@@ -2,11 +2,11 @@ import {
   Navbar,
   Home,
   About,
-  
   Contact,
   Courses,
   Community,
   Faq,
+  MeetTeam,
   Footer,
 } from "./components/index";
 
@@ -17,13 +17,13 @@ function App() {
       <Home />
       <About />
       <Courses />
-   
+
       <Community />
-      <Faq/>
+
+      <Faq />
+      <MeetTeam />
       <Contact />
       <Footer />
-     
-      
     </div>
   );
 }

@@ -37,7 +37,7 @@ const Accordion = ({ id, title }) => {
             initial={{ height: 0 }}
             animate={{ height: "auto" }}
             exit={{ height: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.1}}
             style={{ overflow: "hidden" }}
             className="pt-4"
           >
