@@ -12,12 +12,7 @@ import courses6 from "./assets/courses6.jpg";
 import courses7 from "./assets/courses7.jpg";
 import courses8 from "./assets/courses8.jpg";
 
-import logo1 from "./assets/logo1.png";
-import logo2 from "./assets/logo2.png";
-import logo3 from "./assets/logo3.png";
-import logo4 from "./assets/logo4.png";
-import logo5 from "./assets/logo5.png";
-import logo6 from "./assets/logo6.png";
+
 
 export const navLinks = [
   {
@@ -45,9 +40,6 @@ export const navLinks = [
     href: "contact",
     link: "Contact",
   },
-
-
-
 ];
 
 export const categories = [
@@ -94,7 +86,7 @@ export const courses = [
     category: "Health and Wellness",
     title:
       "The wellness industry is growing rapidly, with people looking for products and services that promote health and wellbeing. Consider starting a fitness studio, health food store, or wellness retreat.",
-    },
+  },
   {
     id: 4,
     image: courses4,
@@ -106,29 +98,33 @@ export const courses = [
     id: 5,
     image: courses5,
     category: "Digital Marketing",
-    title: "Digital marketing typically refers to online marketing campaigns that appear on a computer, phone, tablet, or other device. It can take many forms, including online video, display ads, search engine marketing, paid social ads and social media posts. Consider the search engine using analytics to provide people ads according to their search history",
+    title:
+      "Digital marketing typically refers to online marketing campaigns that appear on a computer, phone, tablet, or other device. It can take many forms, including online video, display ads, search engine marketing, paid social ads and social media posts. Consider the search engine using analytics to provide people ads according to their search history",
   },
   {
     id: 6,
     image: courses6,
     category: "Online Education",
-    title: "As more people look to improve their skills and knowledge, online education has become increasingly popular.Consider creating an online course or coaching program in your area of expertise.",
+    title:
+      "As more people look to improve their skills and knowledge, online education has become increasingly popular.Consider creating an online course or coaching program in your area of expertise.",
   },
   {
     id: 7,
     image: courses7,
     category: "Remote Work Solution",
-    title: "With the rise of remote work, there's a growing need for tools and services that support distributed teams. Consider starting a business that provides remote work tools, such as project management software or virtual meeting platforms.",
+    title:
+      "With the rise of remote work, there's a growing need for tools and services that support distributed teams. Consider starting a business that provides remote work tools, such as project management software or virtual meeting platforms.",
   },
   {
     id: 8,
     image: courses8,
     category: "Artificial Intelligence",
-    title: "As AI technology becomes more advanced,there are many opportunities to create businesses that leverage this technology. Consider starting a business that uses AI to improve customer service, automate tasks, or analyze data.",
+    title:
+      "As AI technology becomes more advanced,there are many opportunities to create businesses that leverage this technology. Consider starting a business that uses AI to improve customer service, automate tasks, or analyze data.",
   },
 ];
 
-export const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
+
 
 export const accordions = [
   {
@@ -145,16 +141,17 @@ export const accordions = [
   },
   {
     id: 4,
-    title: "What types of collaboration opportunities are available within the community?",
+    title:
+      "What types of collaboration opportunities are available within the community?",
   },
   {
     id: 5,
-    title:" How can I submit a resource to the Resource Hub?",
+    title: " How can I submit a resource to the Resource Hub?",
   },
 
   {
     id: 6,
-    title:"Is there a limit to the number of networking events I can attend?",
+    title: "Is there a limit to the number of networking events I can attend?",
   },
 
   {
@@ -164,6 +161,7 @@ export const accordions = [
 
   {
     id: 8,
-    title:"Can I submit my business success story for the Business Success Stories section?",
+    title:
+      "Can I submit my business success story for the Business Success Stories section?",
   },
 ];

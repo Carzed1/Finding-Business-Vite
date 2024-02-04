@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../../assets/hero.png";
-import { logos } from "../../Data";
+
 import { motion, useAnimation } from "framer-motion";
 
 const Home = () => {
@@ -35,18 +35,6 @@ const Home = () => {
     hidden: { x: 20, opacity: 0 },
     visible: {
       x: 0,
-      opacity: 1,
-      transition: {
-        ease: "easeOut",
-        duration: 1.5,
-      },
-    },
-  };
-
-  const logosVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
       opacity: 1,
       transition: {
         ease: "easeOut",
@@ -98,10 +86,6 @@ const Home = () => {
           <img src={hero} alt="" />
         </motion.div>
       </motion.div>
-
-      
-
-    
     </div>
   );
 };
