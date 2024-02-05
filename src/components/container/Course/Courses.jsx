@@ -22,8 +22,8 @@ const Courses = () => {
   };
   return (
     <div className="section" id="courses">
-      <div className="text-center">
-        <div className="sm:text-3xl text-2xl font-bold mb-5">
+      <div className="text-center -mt-40">
+        <div className="sm:text-3xl text-2xl font-bold mb-5 ">
           Our Top <span className="text-Teal">Tools</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">

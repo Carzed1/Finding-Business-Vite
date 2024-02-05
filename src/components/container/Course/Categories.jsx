@@ -12,8 +12,6 @@ const categoryDescriptions = {
     "Ensure seamless accessibility by analyzing transportation facilities, including public transit and road networks, to enhance connectivity for customers and employees.",
 };
 
-
-
 const Categories = ({ icon, category }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -34,7 +32,9 @@ const Categories = ({ icon, category }) => {
     <motion.div
       variants={item}
       whileHover={{ scale: 1.1 }}
-      className={`group flex items-center flex-col gap-4 bg-white p-8 rounded-md transition-all duration-300 ${isHovered ? 'expanded' : ''}`}
+      className={`group flex items-center flex-col gap-4 bg-white p-8 rounded-md transition-all duration-300 ${
+        isHovered ? "expanded" : ""
+      }`}
       onMouseEnter={handleHover}
       onMouseLeave={handleMouseLeave}
     >
@@ -54,4 +54,3 @@ const Categories = ({ icon, category }) => {
 };
 
 export default Categories;
-
