@@ -13,9 +13,9 @@ const Modal = ({ type, onClose, children }) => {
         <div className="text-right">
           <button
             onClick={onClose}
-            className="mt-4 px-4 py-2 bg-gray-300 rounded-md border hover:bg-rose-600"
+            className="mt-4 px-4 py-2 bg-gray-300 rounded-full border hover:bg-rose-600"
           >
-            X
+            x
           </button>
         </div>
         {type === 1 ? <Login /> : <SignUp />}

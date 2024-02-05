@@ -30,10 +30,11 @@ const About = () => {
         {/* Text Overlay */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Welcome to [Your Company Name]
+            Welcome to Finding Business
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl">
-            Your trusted partner in business location analysis and decision-making.
+            Your trusted partner in business location analysis and
+            decision-making.
           </p>
           <p className="text-lg md:text-xl lg:text-2xl">
             Explore potential business locations with confidence.
@@ -46,11 +47,9 @@ const About = () => {
 
 export default About;
 
-
 // // import React, { useRef } from "react";
 // // // import About from "../../assets/video.mp4";
 // // import { motion, useScroll, useTransform } from "framer-motion";
-
 
 // // Import necessary dependencies
 // import React, { useRef } from "react";
@@ -119,7 +118,6 @@ export default About;
 // };
 
 // export default About;
-
 
 // const About = () => {
 //   return (

@@ -12,8 +12,6 @@ import courses6 from "./assets/courses6.jpg";
 import courses7 from "./assets/courses7.jpg";
 import courses8 from "./assets/courses8.jpg";
 
-
-
 export const navLinks = [
   {
     id: 1,
@@ -46,22 +44,23 @@ export const categories = [
   {
     id: 1,
     icon: <FiPenTool />,
-    category: "Design",
+    category: "View Map of the Area",
+    
   },
   {
     id: 2,
     icon: <FaLaptopCode />,
-    category: "Development",
+    category: "Finding Perfect Business Location",
   },
   {
     id: 3,
     icon: <BsBarChartLine />,
-    category: "Business",
+    category: "Get List of Similar Businesses ",
   },
   {
     id: 4,
     icon: <MdOutlineScience />,
-    category: "Science",
+    category: "Analyse Transportation Facilities",
   },
 ];
 
@@ -124,12 +123,10 @@ export const courses = [
   },
 ];
 
-
-
 export const accordions = [
   {
     id: 1,
-    title: "How do I join the [Your Project Name] Business Community?",
+    title: "How do I join the Finding Business Community?",
   },
   {
     id: 2,

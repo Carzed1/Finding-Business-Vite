@@ -14,10 +14,12 @@ const Expert = () => {
             Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+            We will hire industry experts on our platform. Who will share
+            experience through courses. These industry experts are carefully
+            selected to ensure that they have the knowledge, skills, and
+            experience needed to provide valuable insights to our users. They
+            create courses that cover a wide range of topics and are designed to
+            help individuals enhance their skills and knowledge.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started
@@ -32,10 +34,7 @@ const Expert = () => {
             Location
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+          Our AI software is revolutionizing location-based business optimization. By analyzing crucial factors such as foot traffic, transportation accessibility, and other pertinent metrics, we assist businesses in identifying the most suitable locations. We understand that location is more than just geographic positioning; it's also about targeting the appropriate audience.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started

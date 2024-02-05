@@ -15,7 +15,7 @@ const CommunityPage = () => {
         className="mb-8"
       >
         <h1 className="text-4xl font-bold mb-4">
-          Welcome to [Your Project Name] Business Community!
+          Welcome to Finding Business Community!
         </h1>
         <p className="text-lg">
           We're thrilled to have you join a network of dynamic businesses and
@@ -200,7 +200,6 @@ const CommunityPage = () => {
           matters that impact your experience. Your feedback shapes the future
           of our community.
         </p>
-
       </motion.div>
 
       <motion.div
@@ -209,10 +208,11 @@ const CommunityPage = () => {
         transition={{ ease: "easeOut", duration: 1.5, delay: 0.5 }}
         className="mb-8 "
       >
-        <h2 className="text-4xl font-bold mb-4 text-center mt-20">Ask Your Question</h2>
+        <h2 className="text-4xl font-bold mb-4 text-center mt-20">
+          Ask Your Question
+        </h2>
         <QuestionForm onSubmit={(question) => console.log(question)} />
       </motion.div>
-      
     </div>
   );
 };

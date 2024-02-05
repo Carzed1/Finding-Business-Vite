@@ -24,20 +24,24 @@ const Courses = () => {
     <div className="section" id="courses">
       <div className="text-center">
         <div className="sm:text-3xl text-2xl font-bold mb-5">
-          Our Top <span className="text-Teal">Clients</span>
+          Our Top <span className="text-Teal">Tools</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          tempora illo laborum ex cupiditate tenetur doloribus non velit atque
-          amet repudiandae ipsa modi numquam quas odit optio, totam voluptate
-          sit! Lorem ipsum dolor sit amet.
+          A range of tools are accessible to help businesses achieve success.
+          "Explore Your Terrain" offers dynamic area maps for understanding the
+          business landscape. "Location Goldmine" helps identify the ideal
+          business location, "Market Insights" provides a directory of similar
+          businesses, and "Seamless Connectivity" analyzes transportation
+          facilities for optimal accessibility and efficiency. These tools are
+          designed to provide businesses with precision and foresight, enabling
+          them to make informed decisions.
         </p>
       </div>
       <motion.div
         variants={container}
         initial="hidden"
         whileInView="visible"
-        className="grid md:grid-cols-4 sm:grid-cols-2 mt-12 gap-8"
+        className="grid md:grid-cols-4 sm:grid-cols-2 mt-12 gap-8 text-center"
       >
         {categories.map((category) => {
           return <Categories key={category.id} {...category} />;

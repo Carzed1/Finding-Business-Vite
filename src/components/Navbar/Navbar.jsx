@@ -5,12 +5,12 @@ import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
 import { motion } from "framer-motion";
+import business from "../../assets/business.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
   const [showModal, setShowModal] = useState(0);
-  // const [showSignUpModal, setShowSignUpModal] = useState(false);
 
   useEffect(() => {
     const scrollActive = () => {
@@ -40,12 +40,15 @@ const Navbar = () => {
             active ? "py-2 transition-all duration-300" : "py-4"
           } container  mx-auto flex items-center justify-between px-2`}
         >
-          <div className="flex items-center gap-2 ml-8">
+          <div className="flex items-center gap-2 ml-4">
             <HiMenuAlt1
               className="text-3xl sm:hidden cursor-pointer"
               onClick={() => setToggle(true)}
             />
-            <div className="text-4xl text-rose-700 uppercase tracking-wide font-bold">
+            <div className="flex-items-center mr-2">
+              <img src={business} alt="" />
+            </div>
+            <div className="text-4xl text-sky-900 uppercase tracking-wide font-bold mr-2">
               Finding Business
             </div>
           </div>
@@ -93,10 +96,7 @@ const Navbar = () => {
             </motion.div>
           )}
 
-          <Modal type={showModal} onClose={() => setShowModal(0)}>
-            {/* You can include your Login component here */}
-            {/* Add your login form or login-related content here */}
-          </Modal>
+          <Modal type={showModal} onClose={() => setShowModal(0)}></Modal>
         </div>
       </div>
     </div>
