@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 import shubham from "../../assets/shubham.jpg";
 import karan from "../../assets/karan.jpg";
 import naveen from "../../assets/naveen.jpg";
-import deepak from "../../assets/deepak.jpg";
+import chaitanya from "../../assets/chaitanya.jpg";
 
 const teamMembers = [
   { name: "Shubham", image: shubham },
   { name: "Karan", image: karan },
   { name: "Naveen", image: naveen },
-  { name: "Deepak", image: deepak },
+  { name: "chaitanya", image: chaitanya },
 ];
 
 const MeetTeam = () => {
