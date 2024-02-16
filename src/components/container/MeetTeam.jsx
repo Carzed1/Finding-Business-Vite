@@ -11,7 +11,7 @@ const teamMembers = [
   { name: "Shubham", image: shubham },
   { name: "Karan", image: karan },
   { name: "Naveen", image: naveen },
-  { name: "chaitanya", image: chaitanya },
+  { name: "Chaitanya", image: chaitanya },
 ];
 
 const MeetTeam = () => {
