@@ -5,6 +5,7 @@ import Courses from "./container/Course/Courses";
 import Community from "./container/Community";
 import Faq from "./container/Faq";
 import Contact from "./container/Contact";
+import Consult from "./container/Consult";
 import Footer from "./container/Footer";
 import Navbar from "./Navbar/Navbar";
 import MeetTeam from "./container/MeetTeam";
@@ -15,6 +16,7 @@ export {
   About,
   Courses,
   Community,
+  Consult,
   Teacher,
   Faq,
   MeetTeam,

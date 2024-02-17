@@ -5,6 +5,7 @@ import {
   Teacher,
   Contact,
   Courses,
+  Consult,
   Community,
   Faq,
   MeetTeam,
@@ -19,7 +20,7 @@ function App() {
       <About />
       <Teacher/>
       <Courses />
-
+      <Consult />
       <Community />
 
       <Faq />
